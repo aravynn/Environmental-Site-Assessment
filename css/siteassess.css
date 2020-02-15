@@ -1,0 +1,33 @@
+/* site assessment css */
+#saform label{font-weight: bold; display: inline;}
+
+#saform .check {padding: 5px; border: 1px solid #999; margin: 6px 5px; -webkit-appearance: checkbox;}
+#saform .radio {padding: 5px; border: 1px solid #999; margin: 6px 5px;}
+#saform .textarea {padding: 5px 8px; border: 1px solid #999; margin: 6px 5px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;}
+#saform textarea {width: 100%; border: 1px solid #999; margin: 10px 0; height: 50px; line-height: 1.5em;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;}
+#saform select {border: 1px solid #999; line-height: 25px !important; height: 25px; position: relative; top: -1px; width: 110px;}
+
+#saform h1 {font-size: 24px; background-color: #444; color: #fff; padding: 5px 10px; border-top: 1px solid #000; margin: 0;}
+#saform h1 a {text-decoration: none; float: right; color: #444; background-color: #6c6; padding: 3px 0px 6px; width: 30px; text-align: center; line-height: .8em;}
+#saform h1 a:hover {color: #fff; background-color: #000; }
+#saform h2 {border-bottom: none; font-weight: bold; color: #000; padding: 20px 0 0;}
+
+#saform #generalinformationsection, #saform #absorbentssection, #saform #wiperragssection, #saform #spillresponsesection, #saform #storagesection, #saform #regulationssection, #saform #loosesection{
+		padding: 5px 10px;
+		border-left: 1px solid #444;
+		border-right: 1px solid #444;
+		border-bottom: 1px solid #444;
+		}
+
+#saform .send {border: 1px solid #000; text-align: center; width: 250px; padding: 10px 0; color: #000; background-color: #fff; transition: .2s;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+font-size: 16px;}
+#saform .send:hover{cursor: pointer; background-color: #6c6; color: #fff; border-color: #6c6; }
